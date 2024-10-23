@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Clicker Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="click-button" class="btn">Click Me!</div> <!-- Updated button class -->
+        <div id="score-display">Score: <span id="score">0</span></div>
+        <div id="high-score-display">High Score: <span id="high-score">0</span></div>
+        <button id="play-music-button">Play Music</button>
+        <button id="restart-button">Restart Game</button>
+    </div>
+    
+    <audio id="click-sound" src="assets/sounds/click.mp3"></audio>
+    <audio id="background-music" src="assets/sounds/background.mp3" loop></audio>
+    
+    <script src="assets/js/game.js"></script>
+</body>
+</html>

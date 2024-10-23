@@ -1,0 +1,85 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #141E30, #243B55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+
+/* Game container */
+#game-container {
+    text-align: center;
+    position: relative;
+    user-select: none; /* Prevent text selection */
+}
+
+/* Button Styling */
+.btn {
+    background: linear-gradient(135deg, #ff5f6d, #ffc371); /* Gradient button */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    padding: 20px 40px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out, background-color 0.3s; /* Button effect */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    background: linear-gradient(135deg, #ffc371, #ff5f6d); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Slightly scale up */
+}
+
+#score-display, #high-score-display {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#score-display span, #high-score-display span {
+    font-weight: bold;
+    color: #FFD700; /* Gold */
+}
+
+/* Restart Button Styling */
+#restart-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #28a745; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#restart-button:hover {
+    background-color: #218838; /* Darker green for hover effect */
+}
+
+/* Play Music Button Styling */
+#play-music-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#play-music-button:hover {
+    background-color: #0056b3; /* Darker blue for hover effect */
+}
